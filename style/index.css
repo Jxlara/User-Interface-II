@@ -1,1 +1,40 @@
-/* Add CSS styling here */
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.cta{
+    display: flex;
+}
+.cta article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cta article div {
+    width: 80%;
+    height: 80%;
+
+}
+.gallery{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.gallery article {
+    width: 22%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
